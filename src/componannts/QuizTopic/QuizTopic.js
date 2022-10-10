@@ -8,9 +8,11 @@ const QuizTopic = ({ quiztopic }) => {
             <div className='quiz-topic'>
                 <img src={logo} alt="" />
                 <div className="details">
-                    <h1>{name}</h1>
-                    <h2>{total}</h2>
-                    <button>Start Quiz</button>
+                    <div>
+                        <h1 className='text-lg font-bold'>{name}</h1>
+                        <h2>Total Quiz:{total}</h2>
+                    </div>
+                    <button className='quiz-btn'>Start Quiz</button>
                 </div>
             </div>
         </div>

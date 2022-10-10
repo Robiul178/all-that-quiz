@@ -12,4 +12,7 @@
 
 .quiz-container {
     display: flex;
+    position: relative;
+    left: 7%;
+    top: 75px;
 }
