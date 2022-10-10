@@ -1,3 +1,16 @@
 .main-container {
     display: flex;
+    gap: 1000px;
+    border-bottom: 1px solid blue;
+    color: blue;
+
+
+}
+
+.common {
+    padding: 20px;
+}
+
+.navBar {
+    padding-top: 20px;
 }

@@ -14,6 +14,7 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('homePageData.json'),
           element: <Topic></Topic>
         },
         {

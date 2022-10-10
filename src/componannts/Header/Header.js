@@ -4,14 +4,14 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="main-container">
+        <div className="main-container text-2xl font-semibold ">
             <div className="logo-side">
-                <h1>AllThatQuiz</h1>
+                <h1 className='common'>AllThatQuiz</h1>
             </div>
             <div className="menu-side">
                 <nav className='navBar'>
-                    <Link to='/'>Topic</Link>
-                    <Link to='/statistic'>Statistic</Link>
+                    <Link className='common' to='/'>Topic</Link>
+                    <Link className='common' to='/statistic'>Statistic   </Link>
                     <Link to='blog'>Blog</Link>
                 </nav>
             </div>
