@@ -1,0 +1,9 @@
+.quiz-topic img {
+    height: 150px;
+    width: 150px;
+}
+
+.quiz-topic {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}

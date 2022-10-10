@@ -9,3 +9,7 @@
 .text-container {
     padding-left: 13%;
 }
+
+.quiz-container {
+    display: flex;
+}
