@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 50px;
+
+}
+
+
+.text-container {
+    padding-left: 13%;
+}

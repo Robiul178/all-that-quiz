@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className="main-container text-2xl font-semibold ">
-            <div className="logo-side">
+            <div className="logo-side px-20">
                 <h1 className='common'>AllThatQuiz</h1>
             </div>
             <div className="menu-side">
