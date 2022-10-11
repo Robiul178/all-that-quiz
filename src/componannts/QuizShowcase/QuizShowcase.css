@@ -1,0 +1,19 @@
+.questions {
+    border: 1px solid black;
+    padding: 35px;
+    margin: 20px;
+    text-align: center;
+}
+
+.option-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.option {
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgba(73, 60, 219, 0.664);
+}

@@ -1,15 +1,29 @@
 import React from 'react';
+import './Css.css';
+import { EyeIcon } from '@heroicons/react/24/solid';
+
 
 const CssQuizShow = ({ c }) => {
+    const handleButton = () => {
+        // const option = Array.from(document.querySelectorAll('.option'));
+        // console.log(option)
+    }
+    const handleAnswer = () => {
+        // alert('Correct Answer')
+        const correctAns = c.correctAnswer;
+        alert(correctAns)
+    }
+
     return (
         <div>
             <div className='questions'>
-                <h2>Question:{c.question}</h2><br />
-                <div className="option-container">
-                    <h3 className='option'>{c.options[0]}</h3>
-                    <h3 className='option'>{c.options[1]}</h3>
-                    <h3 className='option'>{c.options[2]}</h3>
-                    <h3 className='option'>{c.options[3]}</h3>
+                <h2 className='text-3xl font-semibold'>{c.question}</h2><br />
+                <EyeIcon onClick={handleAnswer} className="h-6 w-6 text-blue-500" />
+                <div className="option-container font-semibold">
+                    <button onClick={handleButton} className='option'>{c.options[0]}</button>
+                    <button onClick={handleButton} className='option'>{c.options[1]}</button>
+                    <button onClick={handleButton} className='option'>{c.options[2]}</button>
+                    <button onClick={handleButton} className='option'>{c.options[3]}</button>
                 </div>
             </div>
         </div>

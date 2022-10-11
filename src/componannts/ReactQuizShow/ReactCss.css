@@ -1,0 +1,22 @@
+.questions {
+    text-align: center;
+    border: 1px solid black;
+    padding: 35px;
+    margin: 20px;
+}
+
+.option-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.option {
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.option :hover {
+    background-color: brown;
+}
