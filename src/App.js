@@ -23,6 +23,7 @@ function App() {
         },
         {
           path: '/statistic',
+          loader: () => fetch('homePageData.json'),
           element: <Statistic></Statistic>
         },
         {
