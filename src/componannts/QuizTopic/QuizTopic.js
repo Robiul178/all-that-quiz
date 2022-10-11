@@ -16,9 +16,11 @@ const QuizTopic = ({ quiztopic }) => {
                     </div>
                     {/* <button className='quiz-btn'>Start Quiz</button> */}
                     <div>
-
-                        <div>
-                            <Link to='/quiz'><button className='quiz-btn'>Start Quiz</button></Link>
+                        <div className='button-div'>
+                            <Link to='/react'><button className='quiz-btn'>Start Quiz</button></Link>
+                            <Link className='js' to='/javascript'><button className='quiz-btn'>Start Quiz</button></Link>
+                            <Link className='css' to='/css'><button className='quiz-btn'>Start Quiz</button></Link>
+                            <Link className='git' to='/git'><button className='quiz-btn'>Start Quiz</button></Link>
                         </div>
 
 

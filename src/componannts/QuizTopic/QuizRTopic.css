@@ -26,3 +26,23 @@
     border-radius: 5px;
     background-color: bisque;
 }
+
+.button-div {
+    position: absolute;
+    left: 50px;
+}
+
+a.css {
+    position: relative;
+    left: 115%;
+}
+
+a.js {
+    position: relative;
+    left: 61%;
+}
+
+a.git {
+    position: relative;
+    left: 171%;
+}

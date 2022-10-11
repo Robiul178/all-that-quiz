@@ -1,0 +1,110 @@
+{
+    "status": true,
+    "data": {
+        "total": 9,
+        "id": 2,
+        "name": "JavaScript",
+        "logo": "https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+        "questions": [
+            {
+                "options": [
+                    "High-level, often just-in-time compiled, and multi-paradigm programming language",
+                    "Dynamic typing, prototype-based object-orientation programming language",
+                    "A multi-paradigm language that supports event-driven, functional, and imperative programming styles",
+                    "All the above"
+                ],
+                "id": "62e531f2d2c8922246db90e3",
+                "question": "<p>What is Javascript (Just google: wikipedia javascript and read first four paragraphs)</p>",
+                "correctAnswer": "All the above"
+            },
+            {
+                "options": [
+                    "boolean",
+                    "bulbuli",
+                    "number",
+                    "string"
+                ],
+                "id": "62e531f2d2c8922246db90e4",
+                "question": "<p>Which one is not a type of variable?</p>",
+                "correctAnswer": "bulbuli"
+            },
+            {
+                "options": [
+                    "parseFloat()",
+                    "parseString()",
+                    "parseNumber()",
+                    "parseInt()"
+                ],
+                "id": "62e531f2d2c8922246db90e5",
+                "question": "<p>Which method is used to convert a string to an integer?</p>",
+                "correctAnswer": "parseInt()"
+            },
+            {
+                "options": [
+                    "Netscape",
+                    "Google",
+                    "Facebook",
+                    "Firefox"
+                ],
+                "id": "62e531f2d2c8922246db90e6",
+                "question": "<p>Which company developed JavaScript? (feel free to google it)</p>",
+                "correctAnswer": "Netscape"
+            },
+            {
+                "options": [
+                    "/",
+                    "%",
+                    "*",
+                    "\\"
+                ],
+                "id": "62e531f2d2c8922246db90e7",
+                "question": "<p>Which one is not a mathematical operator in JS?</p>",
+                "correctAnswer": "\\"
+            },
+            {
+                "options": [
+                    "Set the value to 0",
+                    "Increase the value by 1",
+                    "Decrease the value by 1",
+                    "White plus toothpaste"
+                ],
+                "id": "62e531f2d2c8922246db90e8",
+                "question": "<p>What does it mean by writing two plus signs after a number type variable?</p>",
+                "correctAnswer": "Increase the value by 1"
+            },
+            {
+                "options": [
+                    "21",
+                    "8",
+                    "218",
+                    "29"
+                ],
+                "id": "62e531f2d2c8922246db90e9",
+                "question": "<p>If&nbsp;you have a var age = 21; and then you write age += 8; now what will be the value of the variable age?</p>",
+                "correctAnswer": "29"
+            },
+            {
+                "options": [
+                    "mobile-price",
+                    "1bookName",
+                    "user9",
+                    "“temperature”"
+                ],
+                "id": "62e531f2d2c8922246db90ea",
+                "question": "<p>Which one is an acceptable variable name?</p>",
+                "correctAnswer": "user9"
+            },
+            {
+                "options": [
+                    "7",
+                    "2",
+                    "5",
+                    "3"
+                ],
+                "id": "62e531f2d2c8922246db90eb",
+                "question": "<p>What will be the output of the code: console.log(17%5)</p>",
+                "correctAnswer": "2"
+            }
+        ]
+    }
+}
