@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './QuizRTopic.css';
 
 const QuizTopic = ({ quiztopic }) => {
@@ -12,7 +14,15 @@ const QuizTopic = ({ quiztopic }) => {
                         <h1 className='text-lg font-bold'>{name}</h1>
                         <h2>Total Quiz:{total}</h2>
                     </div>
-                    <button className='quiz-btn'>Start Quiz</button>
+                    {/* <button className='quiz-btn'>Start Quiz</button> */}
+                    <div>
+
+                        <div>
+                            <Link to='/quiz'><button className='quiz-btn'>Start Quiz</button></Link>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
         </div>
