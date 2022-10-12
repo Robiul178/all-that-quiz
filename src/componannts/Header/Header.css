@@ -14,3 +14,17 @@
 .navBar {
     padding-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+
+
+
+    .navBar {
+        position: relative;
+        right: 150px;
+    }
+
+    .common {
+        padding: 10px;
+    }
+}

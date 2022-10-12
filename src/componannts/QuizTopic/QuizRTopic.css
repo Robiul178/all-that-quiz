@@ -1,5 +1,5 @@
 .quiz-topic img {
-    height: 150px;
+    height: 250px;
     width: 250px;
     background-color: rgba(28, 15, 40, 0.505);
     border-radius: 5px;
@@ -8,7 +8,7 @@
 .all-topic {
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .quiz-topic {
@@ -22,8 +22,8 @@
 .quiz-btn {
     border: 1px solid;
     position: relative;
-    /* right: -31%; */
-    /* margin: 13px; */
+    right: -31%;
+    margin: 13px;
     border-radius: 5px;
     background-color: rgb(155, 155, 233);
 }

@@ -6,13 +6,13 @@ const Header = () => {
     return (
         <div className="main-container text-xl font-semibold ">
             <div className="logo-side px-20">
-                <h3 className='common'>AllThatQuiz</h3>
+                <h3 className='common name-div'>AllThatQuiz</h3>
             </div>
             <div className="menu-side">
                 <nav className='navBar'>
                     <Link className='common' to='/'>Topic</Link>
                     <Link className='common' to='/statistic'>Statistic   </Link>
-                    <Link to='blog'>Blog</Link>
+                    <Link className='ok' to='blog'>Blog</Link>
                 </nav>
             </div>
         </div>
