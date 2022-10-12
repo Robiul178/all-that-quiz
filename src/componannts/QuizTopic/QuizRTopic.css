@@ -1,6 +1,8 @@
 .quiz-topic img {
-    height: 250px;
+    height: 150px;
     width: 250px;
+    background-color: rgba(28, 15, 40, 0.505);
+    border-radius: 5px;
 }
 
 .all-topic {
@@ -9,9 +11,8 @@
     margin: 30px;
 }
 
-.quiz-topic img {
-    background-color: rgba(28, 15, 40, 0.505);
-    border-radius: 5px;
+.quiz-topic {
+    box-shadow: 0px 0px 10px 3px gray;
 }
 
 .details {
@@ -21,20 +22,21 @@
 .quiz-btn {
     border: 1px solid;
     position: relative;
-    right: -31%;
-    margin: 13px;
+    /* right: -31%; */
+    /* margin: 13px; */
     border-radius: 5px;
-    background-color: bisque;
+    background-color: rgb(155, 155, 233);
 }
 
 .button-div {
     position: absolute;
-    left: 50px;
+    left: 120px;
+    margin-top: 10px;
 }
 
 a.css {
     position: relative;
-    left: 115%;
+    left: 122%;
 }
 
 a.js {
@@ -44,5 +46,5 @@ a.js {
 
 a.git {
     position: relative;
-    left: 171%;
+    left: 185%;
 }

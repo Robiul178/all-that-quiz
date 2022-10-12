@@ -9,20 +9,13 @@ const Topic = () => {
     // console.log(quizItems)
     return (
         <div className='home-container'>
-
-
-
             <div className="container">
                 <div className="text-container">
-                    <h1 className='text-3xl font-bold'>Why Play Quizzes?</h1> <br />
-                    <p className='text-xl'>Playing online quiz games helps to
-                        improve learning as well as capturing
-                        capacity that sharpens your brain
-                        with tactful skills and the experience
-                        you gain from playing quiz helps you
-                        in various stages.
+                    <h1 className='text-xl font-bold'>Why Play Quizzes?</h1> <br />
+                    <p className='text-sm' >Playing online quiz games helps to improve learning as well as capturing capacity that sharpens your brain with tactful skills
+                        and the experience you gain from playing quiz helps you in various stages.
                     </p> <br />
-                    <p className='text-xl'>
+                    <p className='text-sm'>
                         They can support differentiation and provide
                         pre-teaching indicators, assessment for
                         learning, rich feedback, self assessment
@@ -33,13 +26,9 @@ const Topic = () => {
                     </p>
                 </div>
                 <div className="image-container">
-                    <img src={images} height={300} width={300} alt="" />
+                    <img src={images} height={250} width={300} alt="" />
                 </div>
             </div>
-
-
-
-
             <div className='quiz-container'>
                 {
                     quizItems.map(quiztopic => <QuizTopic

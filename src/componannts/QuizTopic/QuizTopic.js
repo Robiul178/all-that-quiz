@@ -11,19 +11,17 @@ const QuizTopic = ({ quiztopic }) => {
                 <img src={logo} alt="" />
                 <div className="details">
                     <div>
-                        <h1 className='text-lg font-bold'>{name}</h1>
-                        <h2>Total Quiz:{total}</h2>
+                        <h1 className='text-sm font-bold'>{name}</h1>
+                        <h2 className='text-sm'>Total Quiz:{total}</h2>
                     </div>
                     {/* <button className='quiz-btn'>Start Quiz</button> */}
                     <div>
-                        <div className='button-div'>
+                        <div className='button-div text-sm'>
                             <Link to='/react'><button className='quiz-btn'>Start Quiz</button></Link>
                             <Link className='js' to='/javascript'><button className='quiz-btn'>Start Quiz</button></Link>
                             <Link className='css' to='/css'><button className='quiz-btn'>Start Quiz</button></Link>
                             <Link className='git' to='/git'><button className='quiz-btn'>Start Quiz</button></Link>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -31,4 +29,4 @@ const QuizTopic = ({ quiztopic }) => {
     );
 };
 
-export default QuizTopic;
+export default QuizTopic
