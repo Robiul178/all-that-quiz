@@ -28,29 +28,52 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
-        }
-      ]
+        },
+
+
+        {
+          path: '/react',
+          loader: () => fetch('react.json'),
+          element: <Reacct></Reacct>
+        },
+        {
+          path: '/javascript',
+          loader: () => fetch('javascript.json'),
+          element: <JavaScript></JavaScript>
+        },
+        {
+          path: '/css',
+          loader: () => fetch('css.json'),
+          element: <Css></Css>
+        },
+        {
+          path: '/git',
+          loader: () => fetch('git.json'),
+          element: <Git></Git>
+        },
+      ],
+
     },
-    {
-      path: '/react',
-      loader: () => fetch('react.json'),
-      element: <Reacct></Reacct>
-    },
-    {
-      path: '/javascript',
-      loader: () => fetch('javascript.json'),
-      element: <JavaScript></JavaScript>
-    },
-    {
-      path: '/css',
-      loader: () => fetch('css.json'),
-      element: <Css></Css>
-    },
-    {
-      path: '/git',
-      loader: () => fetch('git.json'),
-      element: <Git></Git>
-    },
+    // {
+    //   path: '/react',
+    //   loader: () => fetch('react.json'),
+    //   element: <Reacct></Reacct>
+    // },
+    // {
+    //   path: '/javascript',
+    //   loader: () => fetch('javascript.json'),
+    //   element: <JavaScript></JavaScript>
+    // },
+    // {
+    //   path: '/css',
+    //   loader: () => fetch('css.json'),
+    //   element: <Css></Css>
+    // },
+    // {
+    //   path: '/git',
+    //   loader: () => fetch('git.json'),
+    //   element: <Git></Git>
+    // },
   ])
 
   return (
