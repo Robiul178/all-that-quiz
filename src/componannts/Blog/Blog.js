@@ -3,7 +3,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='container'>
             <div className="first-question">
                 <h1 className='text-xl font-semibold'>Q1.What is the purpose react router?</h1><br />
                 <p className='text-sm'><span className='font-semibold'>Answer:</span> React Router is a standard library

@@ -1,6 +1,8 @@
 .questions {
     text-align: center;
     border: 1px solid black;
+    margin: 7rem;
+    padding: 30px;
 }
 
 .option-container {
@@ -10,7 +12,4 @@
 
 .option {
     border: 1px solid;
-    /* margin: 5px; */
-    /* border-radius: 15px; */
-    /* padding: 5px; */
 }

@@ -1,13 +1,11 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-// import { BarChart, Bar } from 'recharts';
 import { ComposedChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Area, Bar } from 'recharts';
 
 const Statistic = () => {
     const getTotal = useLoaderData();
-    // console.log(getTotal)
     return (
-        <div>
+        <div className='absolute top-20'>
             <ComposedChart width={730} height={250} data={getTotal}>
                 <XAxis dataKey="name" />
                 <YAxis />

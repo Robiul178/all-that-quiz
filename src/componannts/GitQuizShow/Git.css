@@ -1,8 +1,8 @@
 .questions {
     text-align: center;
     border: 1px solid black;
-    padding: 35px;
-    margin: 20px;
+    margin: 7rem;
+    padding: 30px;
 }
 
 .option-container {

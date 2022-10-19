@@ -5,14 +5,20 @@
     margin: 100px;
 }
 
-.image-container img {
-    position: relative;
-    left: 19em;
-}
+/* 
+.home-container {
+    position: absolute;
+    right: 20rem;
+} */
 
 .flex {
-    position: relative;
-    left: 6em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
 }
 
 .main-container {

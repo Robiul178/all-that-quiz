@@ -5,6 +5,7 @@ import Css from './componannts/Css/Css';
 import Git from './componannts/Git/Git';
 import JavaScript from './componannts/JavaScript/JavaScript';
 import Main from './componannts/Main/Main';
+import NotFound from './componannts/Not Found/NotFound';
 
 import Reacct from './componannts/React/Reacct';
 import Statistic from './componannts/Statistic/Statistic';
@@ -52,6 +53,10 @@ function App() {
           loader: () => fetch('git.json'),
           element: <Git></Git>
         },
+        {
+          path: "*",
+          element: <NotFound></NotFound>
+        }
       ],
 
     },
