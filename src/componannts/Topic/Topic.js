@@ -2,11 +2,14 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './Topic.css'
 import images from '../images/school.png'
-import QuizTopic from '../QuizTopic/QuizTopic';
+import CssCard from '../CssCard/CssCard';
+import GitCard from '../GitCard/GitCard';
+import JsCard from '../JsCard/JsCard';
+import ReactCard from '../ReactCard/ReactCard';
 
 const Topic = () => {
     const quizItems = useLoaderData();
-    // console.log(quizItems)
+    console.log(quizItems)
     return (
         <div className='home-container'>
             <div className="container">
@@ -31,12 +34,20 @@ const Topic = () => {
                 </div>
             </div>
             <div className='quiz-container'>
-                {
+
+                {/* {
                     quizItems.map(quiztopic => <QuizTopic
                         key={quiztopic.id}
                         quiztopic={quiztopic}
                     ></QuizTopic>)
-                }
+                } */}
+
+                <section className='flex'>
+                    <ReactCard quizItems={quizItems}></ReactCard>
+                    <JsCard quizItems={quizItems}></JsCard>
+                    <CssCard quizItems={quizItems}></CssCard>
+                    <GitCard quizItems={quizItems}></GitCard>
+                </section>
 
             </div>
         </div>
