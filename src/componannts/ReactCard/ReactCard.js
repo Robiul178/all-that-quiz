@@ -15,8 +15,8 @@ const ReactCard = ({ quizItems }) => {
                             <h2 className='text-sm'>Total Quiz:{total}</h2>
                         </div>
                         <div>
-                            <div className='button-div text-sm'>
-                                <Link to='/react'><button className='quiz-btn react'>Start Quiz</button></Link>
+                            <div className='border rounded border-black'>
+                                <Link to='/react'><button className='quiz-btn react'>Start Quiz </button></Link>
                             </div>
                         </div>
                     </div>

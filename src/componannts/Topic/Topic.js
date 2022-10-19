@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './Topic.css'
-import images from '../images/school.png'
+import images from '../images/quiz.png'
 import CssCard from '../CssCard/CssCard';
 import GitCard from '../GitCard/GitCard';
 import JsCard from '../JsCard/JsCard';
@@ -14,7 +14,7 @@ const Topic = () => {
         <div className='home-container'>
             <div className="container">
                 <div className="text-container">
-                    <h1 className='text-xl font-bold'>Why Play Quizzes?</h1> <br />
+                    <h1 className='text-lg font-bold'>Why Play Quizzes?</h1> <br />
                     <p className='text-sm' >Playing online quiz games helps to improve learning as
                         well as capturing capacity that sharpens your brain with tactful skills
                         and the experience you gain from playing quiz helps you in various stages.
@@ -34,13 +34,6 @@ const Topic = () => {
                 </div>
             </div>
             <div className='quiz-container'>
-
-                {/* {
-                    quizItems.map(quiztopic => <QuizTopic
-                        key={quiztopic.id}
-                        quiztopic={quiztopic}
-                    ></QuizTopic>)
-                } */}
 
                 <section className='flex'>
                     <ReactCard quizItems={quizItems}></ReactCard>

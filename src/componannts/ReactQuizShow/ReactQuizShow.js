@@ -1,37 +1,40 @@
 import React from 'react';
 import './ReactCss.css'
 import { EyeIcon } from '@heroicons/react/24/solid'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
 
 const ReactruizShow = ({ r }) => {
     const handleAnswer = () => {
         const correctAns = r.correctAnswer;
-        alert(correctAns)
+        toast(correctAns)
     }
 
     const handleQuestionAnswer = (e) => {
         const correctAnswer = r.correctAnswer.length;
-        // console.log(e.target.value.length)
         const clickAnswer = e.target.value.length;
-        // console.log(correctAnswer, clickAnswer)
         if (clickAnswer === correctAnswer) {
-            alert('Right Answer');
+            toast("Right Answer!")
         }
         else {
-            alert('Wrong Answer')
+            toast('Wrong Answer')
         }
 
     }
 
     return (
-        < div >
+        < div>
             <div className='questions'>
-                <h2 className='text-lg font-semibold'>{r.question}</h2><br />
-                <EyeIcon onClick={handleAnswer} className="h-6 w-6 text-blue-500" />
+                <EyeIcon onClick={handleAnswer} className="h-6 w-6 text-yellow-500" /><ToastContainer></ToastContainer>
+                <h2 className='text-lg font-semibold border'>Q.{r.question}</h2><br />
                 <div className="option-container text-sm font-semibold">
-                    <span> <input onClick={handleQuestionAnswer} type="radio" value={r.options[0]} id="" />{r.options[0]}</span>
-                    <span> <input onClick={handleQuestionAnswer} type="radio" value={r.options[1]} id="" />{r.options[1]}</span>
-                    <span> <input onClick={handleQuestionAnswer} type="radio" value={r.options[2]} id="" />{r.options[2]}</span>
-                    <span> <input onClick={handleQuestionAnswer} type="radio" value={r.options[3]} id="" />{r.options[3]}</span>
+                    <span> <input onClick={handleQuestionAnswer} name="option" type="radio" value={r.options[0]} id="" />{r.options[0]}</span><ToastContainer></ToastContainer>
+                    <span> <input onClick={handleQuestionAnswer} name="option" type="radio" value={r.options[1]} id="" />{r.options[1]}</span><ToastContainer></ToastContainer>
+                    <span> <input onClick={handleQuestionAnswer} name="option" type="radio" value={r.options[2]} id="" />{r.options[2]}</span><ToastContainer></ToastContainer>
+                    <span> <input onClick={handleQuestionAnswer} name="option" type="radio" value={r.options[3]} id="" />{r.options[3]}</span><ToastContainer></ToastContainer>
                 </div>
             </div>
         </div >

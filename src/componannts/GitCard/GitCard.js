@@ -14,8 +14,7 @@ const GitCard = ({ quizItems }) => {
                             <h2 className='text-sm'>Total Quiz:{total}</h2>
                         </div>
                         <div>
-                            <div className='button-div text-sm'>
-
+                            <div className='border rounded border-black'>
                                 <Link className='git' to='/git'><button className='quiz-btn'>Start Quiz</button></Link>
                             </div>
                         </div>

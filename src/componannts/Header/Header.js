@@ -7,7 +7,7 @@ const Header = () => {
     const [open, setOpen] = useState(false)
 
     return (
-        <div className="main-container text-xl font-semibold ">
+        <div className="main-container text-xl font-semibold border-bott">
             <div>
                 <h3 className='side-name'>AllThatQuiz</h3>
             </div>
