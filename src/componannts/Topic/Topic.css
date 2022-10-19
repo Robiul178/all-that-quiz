@@ -2,19 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-top: 50px;
-
-}
-
-
-.text-container {
-    padding-left: 19%;
-}
-
-.quiz-container {
-    display: flex;
-    position: relative;
-    left: 10px;
-    top: 75px;
+    margin: 100px;
 }
 
 .image-container img {

@@ -5,6 +5,7 @@ import Css from './componannts/Css/Css';
 import Git from './componannts/Git/Git';
 import JavaScript from './componannts/JavaScript/JavaScript';
 import Main from './componannts/Main/Main';
+
 import Reacct from './componannts/React/Reacct';
 import Statistic from './componannts/Statistic/Statistic';
 import Topic from './componannts/Topic/Topic';
@@ -54,27 +55,8 @@ function App() {
       ],
 
     },
-    // {
-    //   path: '/react',
-    //   loader: () => fetch('react.json'),
-    //   element: <Reacct></Reacct>
-    // },
-    // {
-    //   path: '/javascript',
-    //   loader: () => fetch('javascript.json'),
-    //   element: <JavaScript></JavaScript>
-    // },
-    // {
-    //   path: '/css',
-    //   loader: () => fetch('css.json'),
-    //   element: <Css></Css>
-    // },
-    // {
-    //   path: '/git',
-    //   loader: () => fetch('git.json'),
-    //   element: <Git></Git>
-    // },
   ])
+
 
   return (
     <div>

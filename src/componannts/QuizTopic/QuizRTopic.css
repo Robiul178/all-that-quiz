@@ -11,15 +11,34 @@
     margin: 20px;
 }
 
-.quiz-topic {
-    box-shadow: 0px 0px 10px 3px gray;
-}
-
-.details {
+/* .details {
     display: flex;
+} */
+
+
+/* a.css {
+    position: absolute;
+
+} */
+
+/* a.js {
+    position: relative;
+    left: 61%;
 }
 
-.quiz-btn {
+a.git {
+    position: relative;
+    left: 185%;
+} */
+
+/* .details {
+    display: flex;
+} */
+
+
+
+
+/* .quiz-btn {
     border: 1px solid;
     position: relative;
     right: -31%;
@@ -34,17 +53,4 @@
     margin-top: 10px;
 }
 
-a.css {
-    position: relative;
-    left: 122%;
-}
-
-a.js {
-    position: relative;
-    left: 61%;
-}
-
-a.git {
-    position: relative;
-    left: 185%;
-}
+ */

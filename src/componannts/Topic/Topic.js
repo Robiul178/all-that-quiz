@@ -12,7 +12,8 @@ const Topic = () => {
             <div className="container">
                 <div className="text-container">
                     <h1 className='text-xl font-bold'>Why Play Quizzes?</h1> <br />
-                    <p className='text-sm' >Playing online quiz games helps to improve learning as well as capturing capacity that sharpens your brain with tactful skills
+                    <p className='text-sm' >Playing online quiz games helps to improve learning as
+                        well as capturing capacity that sharpens your brain with tactful skills
                         and the experience you gain from playing quiz helps you in various stages.
                     </p> <br />
                     <p className='text-sm'>
