@@ -1,5 +1,5 @@
 Project Name:
-Educational Website
+Educational Website (AllThatQuiz)
 
 Site live link
 [AllThatQuiz](https://clever-mousse-d7098f.netlify.app/)
